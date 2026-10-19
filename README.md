@@ -1,78 +1,97 @@
-# HR Employee Attrition & Retention Analysis
+# 📊 HR Employee Attrition & Retention Analysis
 
-A Power BI analytics project focused on understanding employee attrition patterns, exploring workforce characteristics, and supporting data-driven HR decisions.
+<p align="center">
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/DAX-Data%20Analysis-7B68EE?style=for-the-badge" alt="DAX"/>
+  <img src="https://img.shields.io/badge/Project-HR%20Analytics-20B2AA?style=for-the-badge" alt="HR Analytics"/>
+</p>
 
-## Project Overview
+<p align="center">
+  <strong>Understanding Employee Attrition, Exploring Workforce Patterns, and Supporting Data-Driven HR Decisions.</strong>
+</p>
 
-Employee attrition can increase recruitment and training costs and lead to the loss of organizational knowledge. This project analyzes HR data to identify workforce patterns associated with employee attrition and highlight areas that may require further investigation.
+---
 
-The project simulates a real-world Data Analytics workflow, from data preparation and modeling to interactive dashboard development and final documentation.
+## 📌 Project Overview
 
-## Business Objectives
+Employee attrition is an important business challenge that can increase recruitment and training costs and lead to the loss of organizational knowledge.
+
+This project uses **Power BI** to analyze employee attrition and retention patterns, explore workforce characteristics, and identify factors associated with employees leaving the organization.
+
+The project simulates a practical Data Analytics workflow, from data preparation and modeling to DAX calculations, interactive visualization, and business recommendations.
+
+## 🎯 Business Objectives
 
 - Measure employee attrition and retention rates.
-- Analyze attrition across departments, job roles, and employee demographics.
-- Explore the relationship between overtime, income, tenure, and attrition.
+- Analyze attrition across departments and job roles.
+- Explore relationships between overtime, income, tenure, and attrition.
 - Examine employee satisfaction and workforce characteristics.
-- Present findings through an interactive Power BI dashboard.
-- Provide actionable recommendations to support HR decision-making.
+- Identify patterns that can help HR teams make better decisions.
+- Present actionable recommendations based on the analysis.
 
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 
-- **Microsoft Power BI** — Interactive dashboard and data visualization.
-- **Power Query** — Data preparation and transformation.
-- **DAX** — Measures and analytical calculations.
-- **Data Modeling** — Tables, relationships, and analytical structure.
-- **GitHub** — Project versioning and documentation.
+| Tool | Purpose |
+|---|---|
+| Power BI | Interactive dashboard and data visualization |
+| Power Query | Data preparation and transformation |
+| DAX | Measures and KPI calculations |
+| Data Modeling | Organizing data for analysis |
+| GitHub | Project versioning and documentation |
 
-## Key Performance Indicators (KPIs)
+## 📈 Dashboard Preview
 
-- Total Employees
-- Total Attrition
-- Attrition Rate
-- Retention Rate
-- Active Employees
-- Average Monthly Income
-- Attrition Rate by Department and Job Role
-- Attrition Rate by Overtime Status
-- Attrition Rate by Tenure and Income Groups
+The dashboard presents an overview of employee attrition, workforce characteristics, and key findings.
 
-## Dashboard Pages
+### Main Dashboard
 
-The dashboard includes dedicated pages for exploring different aspects of the workforce:
+![HR Analytics Infographic](HR%20Employee%20Attrition%20Analysis/HR_Analytics_Infographic.png)
 
-1. **Home** — Project introduction and navigation.
-2. **Overview** — High-level workforce KPIs.
-3. **Drivers** — Employee characteristics associated with attrition.
-4. **Compensation** — Income-related analysis.
-5. **Tenure** — Employee tenure and career progression.
-6. **Workforce** — Workforce demographics and composition.
-7. **Insights** — Key findings and potential areas for HR action.
-8. **Department Detail** — Department-level analysis.
+### Dashboard Screenshots
 
-## Key Findings
+Explore the individual dashboard pages below:
 
-The analysis highlights patterns that HR teams may investigate further, including:
+| Page | Description |
+|---|---|
+| Home | Project introduction and navigation |
+| Overview | Workforce KPIs and attrition overview |
+| Drivers | Analysis of factors associated with attrition |
+| Compensation | Income and compensation analysis |
+| Tenure | Employee tenure and experience patterns |
+| Workforce | Employee demographics and workforce characteristics |
+| Insights | Key findings and recommendations |
 
-- Higher attrition among employees working overtime.
-- Differences in attrition across job roles.
-- Higher attrition rates among employees with shorter tenure.
-- Differences in attrition across income groups.
+Screenshots are available in the `screenshots` folder.
 
-These findings describe observed associations in the dataset and should not be interpreted as proof of causation.
+## 🔍 Key Findings
 
-## Recommendations
+The analysis highlights several patterns worth investigating:
 
-- Review overtime distribution and workload balance.
-- Strengthen onboarding and support for new employees.
-- Investigate attrition patterns across job roles.
-- Review compensation patterns alongside other workforce indicators.
-- Use employee satisfaction and tenure metrics to guide further investigation.
+- **Overall Attrition:** The dashboard reports an attrition rate of approximately 16.12%.
+- **Overtime:** Employees working overtime show a higher attrition rate than employees not working overtime.
+- **Employee Tenure:** Employees in their first year show a higher attrition rate than employees with longer tenure.
+- **Compensation:** Attrition patterns differ across monthly income groups.
+- **Job Roles:** Attrition rates vary across job roles and workforce segments.
 
-## Repository Structure
+> These findings describe observed patterns in the dataset. They should not be interpreted as proof that any single factor directly causes employee attrition.
+
+## 💡 Business Recommendations
+
+Based on the observed patterns, HR teams could consider:
+
+1. Strengthening onboarding and support during the first year of employment.
+2. Reviewing overtime distribution and workload balance.
+3. Examining compensation and career-development opportunities.
+4. Investigating attrition patterns across job roles.
+5. Monitoring employee satisfaction and retention indicators over time.
+
+These recommendations should be evaluated alongside additional organizational context before implementation.
+
+## 📂 Project Structure
 
 ```text
 HR-Employee-Attrition-Analysis/
+│
 ├── HR Employee Attrition Analysis/
 │   ├── HR_Analytics_Project.pbix
 │   ├── HR_Analytics_Presentation.pptx
@@ -80,4 +99,5 @@ HR-Employee-Attrition-Analysis/
 │   ├── Project_Booklet.pdf
 │   ├── Technical_Documentation.pdf
 │   └── screenshots/
+│
 └── README.md
